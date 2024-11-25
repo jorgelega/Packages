@@ -1,0 +1,25 @@
+{
+    "env": [
+	{
+	"JLTOOLS": "<File Path Here>/JL_Tools"
+	},
+      ],
+	"path": "$JLTOOLS"
+}
+
+{
+    "HOUDINI_TOOLBAR_PATH": {
+        "method": "append", 
+       "value": [
+            {
+            	    	"houdini_os == 'windows'": "$JLTOOLS/toolbar"
+                    }, 
+                    {
+                    	"houdini_os == 'linux'": "$JLTOOLS/toolbar"
+                    },
+                    {
+                        "houdini_os == 'macOS'": "$JLTOOLS/toolbar"
+                    }
+         		]
+    		}
+},
