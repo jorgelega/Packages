@@ -1,0 +1,17 @@
+{
+    "env": [
+        {
+            "HOUDINI_DSO_ERROR": "2"
+        },
+        {
+            "PATH": "C:/ProgramData/Redshift/bin;$PATH"
+        },
+        {
+            "HOUDINI_PATH": "C:/ProgramData/Redshift/Plugins/Houdini/20.5.278;&"
+        },
+        {
+            "PXR_PLUGINPATH_NAME": "C:/ProgramData/Redshift/Plugins/Solaris/20.5.278"
+        }
+    ],
+    "path": "C:/ProgramData/Redshift/Plugins/Houdini/20.5.278"
+}
