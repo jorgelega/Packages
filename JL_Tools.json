@@ -1,25 +1,46 @@
 {
-    "env": [
-	{
-	"JLTOOLS": "<File Path Here>/JL_Tools"
-	},
-      ],
-	"path": "$JLTOOLS"
+  "name": "JLTools",
+  "env": [
+    {
+      "var": "JLTools",
+      "value": "$HOUDINI_PACKAGE_PATH/JLTools"
+    },
+    {
+      "var": "PYTHONPATH",
+      "value": "$JLTools/python",
+      "method": "append"
+    },
+    {
+      "var": "HOUDINI_TOOLBAR_PATH",
+      "value": "$JLTools/toolbar",
+      "method": "append"
+    },
+    {
+      "var": "HOUDINI_UI_ICON_PATH",
+      "value": "$JLTools/config/icons",
+      "method": "append"
+    },
+    {
+      "var": "HOUDINI_OTLSCAN_PATH",
+      "value": "$JLTools/HDAs",
+      "method": "append"
+    },
+    {
+      "var": "HOUDINI_PATH",
+      "value": "$JLTools/pypanels;&",
+      "method": "prepend"
+    },
+    {
+      "var": "HOUDINI_PATH",
+      "value": "$JLTools;&",
+      "method": "append"
+    },
+    {
+      "var": "HOUDINI_STARTUP_PATH",
+      "value": "$JLTools/startup/python;&",
+      "method": "prepend"
+    }
+  ],
+  "hpath": "$JLTools"
 }
 
-{
-    "HOUDINI_TOOLBAR_PATH": {
-        "method": "append", 
-       "value": [
-            {
-            	    	"houdini_os == 'windows'": "$JLTOOLS/toolbar"
-                    }, 
-                    {
-                    	"houdini_os == 'linux'": "$JLTOOLS/toolbar"
-                    },
-                    {
-                        "houdini_os == 'macOS'": "$JLTOOLS/toolbar"
-                    }
-         		]
-    		}
-},
