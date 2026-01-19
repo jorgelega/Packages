@@ -7,11 +7,11 @@
             "PATH": "C:/ProgramData/Redshift/bin;$PATH"
         },
         {
-            "HOUDINI_PATH": "C:/ProgramData/Redshift/Plugins/Houdini/21.0.440;&"
+            "HOUDINI_PATH": "C:/ProgramData/Redshift/Plugins/Houdini/21.0.512;&"
         },
         {
-            "PXR_PLUGINPATH_NAME": "C:/ProgramData/Redshift/Plugins/Solaris/21.0.440"
+            "PXR_PLUGINPATH_NAME": "C:/ProgramData/Redshift/Plugins/Solaris/21.0.512"
         }
     ],
-    "path": "C:/ProgramData/Redshift/Plugins/Houdini/21.0.440"
+    "path": "C:/ProgramData/Redshift/Plugins/Houdini/21.0.512"
 }
